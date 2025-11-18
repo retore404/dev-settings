@@ -12,7 +12,7 @@
 - ブランチ戦略
   - docs/practices/git-operation.md
 - TypeScriptのコーディングプラクティス
-  - docs/coding/typescript.md
+  - docs/practices/typescript-coding.md
 - テスト駆動開発のプラクティス
   - docs/practices/tdd.md
 - フロントエンドのディレクトリ構成について
