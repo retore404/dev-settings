@@ -140,8 +140,6 @@ Controllerは外部からの入り口となるREST APIエンドポイントを�
 - **DomainException（抽象基底クラス）**
   - **DomainValidationException:** 値オブジェクトの制約違反（例：緯度が-90〜90度の範囲外）
   - **BusinessRuleException:** ビジネスルール違反（例：削除済みスポットの更新試行）
-  - **AggregateException:** 集約内の一貫性制約違反（例：必須フィールドの欠損）
-  - **WorkflowException:** ワークフロー制約違反（例：前提条件未満足での処理実行）
   - 全てAPIのレスポンスとしては422 Unprocessable Entityとして扱われることが期待される
 
 ### ユースケース層がスローする例外
